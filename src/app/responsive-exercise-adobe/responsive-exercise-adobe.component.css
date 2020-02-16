@@ -1,0 +1,181 @@
+.picture-header{
+  padding-right: 0px;
+  padding-left: 0px;
+  height: 620px;
+}
+.row{
+    margin-right: 0px;
+    margin-left: 0x;
+}
+.menu{
+  height: 55px;
+  background: white;
+  position: absolute;
+  top: 45px;
+}
+.sub-section {
+  border-right: 1px solid #e9e1e1;
+  height: 55px;
+  float: left;
+  color: black;
+  font-size: 18px;
+  padding-top: 15px;
+  text-align: center;
+  font-weight: bold;
+
+}
+.gray-section{
+  padding-right: 0px;
+  padding-left: 0px;
+  height: 460px;
+  background: lightcyan;
+}
+.section-card{
+  height: 340px;
+  margin-right: 10%;
+  margin-left: 10%;
+  width: 80%;
+  font-size: 1vw;
+  background: white;
+  color: black;
+}
+
+.section-cardr{
+  width: 100%;
+  font-size: 1vw;
+  background: white;
+  color: black;
+}
+
+.title-gray-section{
+color: black;
+margin-left: 10%;
+font-size: 24px;
+font-weight: bold;
+padding-top: 25px;
+padding-bottom: 25px;
+}
+
+.title-gray-sectionr{
+  color: black;
+  margin-left: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  }
+
+.header-section-card{
+  float: left;
+  padding-top: 40px;
+  padding-bottom: 25px;
+}
+
+.left-section{
+float: left;
+}
+
+.left-sectionr{
+  float: left;
+  padding-bottom: 10px;
+  }
+
+.right-section{
+  float: left;
+}
+
+.right-sectionr{
+  float: left;
+  padding-bottom: 10px;
+}
+
+.approval-section{
+  position: relative;
+  float: left;
+}
+.approval-section-button{
+  text-decoration: none;
+  padding: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: helvetica;
+  font-weight: 300;
+  font-size: 1vw;
+  font-style: italic;
+  color: white;
+  background-color: #48c3a1;
+  border-radius: 34px;
+  border: none;
+}
+
+.approval-section-buttonr{
+  text-decoration: none;
+  padding: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: helvetica;
+  margin-top: 10px;
+  font-size: 4vw !important;
+  font-weight: 300;
+  font-size: 1vw;
+  font-style: italic;
+  color: white;
+  background-color: #48c3a1;
+  border-radius: 34px;
+  border: none;
+}
+
+.debit-card{
+  width: 190px;
+  height: 100px;
+  float: left;
+}
+.apply-section-button{
+  text-decoration: none;
+  padding: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: helvetica;
+  font-weight: 300;
+  font-size: 25px;
+  font-style: italic;
+  color: white;
+  background-color: #e9653d;
+  border-radius: 10px;
+  border: none;
+}
+.message-approval{
+  padding-bottom: 5px;
+}
+.subtitle-left-gray-section{
+  font-size: 24px;
+}
+
+.section-down{
+  padding-top: 90px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #c6c5c5;
+  font-size: 1.2vw;
+}
+
+.section-downr{
+  padding-top: 90px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #c6c5c5;
+  font-size: 4vw;
+}
+.show-more{
+  color:#16b4ff;
+  font-size: 1.2vw;
+}
+.see-details{
+  color:#16b4ff;
+}
+.show-morer{
+  color:#16b4ff;
+  font-size: 4vw;
+}
+.see-detailsr{
+  color:#16b4ff;
+  font-size: 4vw;
+}

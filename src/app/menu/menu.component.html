@@ -1,0 +1,127 @@
+<div>
+<div>
+  <h1>Go to responsive page exercise</h1>
+  <br>
+  <button class="btn btn-primary" [routerLink]="['/responsiveExerciseAdobe']">Go to responsive page Adobe prototype</button>
+  <br>
+  <br>
+</div>
+
+<div class="exercise1 title">
+  1- Demonstrates the usage of ngOnChanges, @Ouput() and @Input()
+  <div class="evaluation">
+    Example to ngModel and Input
+  </div>
+  <div class="subtitle">
+    Write one name
+    <div>
+      <input type="text" placeholder="Name" [(ngModel)]="name" [ngModelOptions]="{standalone: true}">
+      Your name is: {{name}}
+    </div>
+    <button (click)="addName()">Add name</button>
+    <div class="subtitle">
+      Write one age (write more that 18 years please)
+      <div>
+        <input id="age" type="number" placeholder="age" [(ngModel)]="age" [ngModelOptions]="{standalone: true}">
+      </div>
+    </div>
+    <div class="evaluation">
+      Example to ngOnChanges
+    </div>
+    <app-child-menu
+    [names]="names"
+    [age]="age"
+    (sign)="getSign($event)"
+    ></app-child-menu>
+    the sign is: {{signMessage}}
+  </div>
+
+
+  <!-- <div>
+    The sign is: {{signMessage}}
+  </div> -->
+
+</div>
+<br>
+<div class="title">
+  2 - Lazy load modules
+</div>
+<div class="evaluation">
+  You could check it this exercise when you are navigate in the web pages.
+</div>
+<br>
+<div class="title">
+  3- Demonstrates the usages of route guards
+</div>
+<div class="subtitle">
+  <button [routerLink]="['authenticationExercise']">Go to authentication Exercise</button>
+</div>
+<br>
+<div class="title">
+  4- Passes data between pages. Have an input field in one page of which contents is
+  displayed in the second page.
+</div>
+<div class="subtitle">
+  <button [routerLink]="['/passDataExercise']">Go to pass data Exercise</button>
+</div>
+<br>
+<div class="title">
+  5- Has page transition animations. Here please make 2 examples, one with angularanimations and one that uses just css classes with animations for things like fading in an
+element.
+</div>
+<div class="subtitle">
+  <button [routerLink]="['/transictionExercise']">Go to animation Exercise</button>
+</div>
+<!--Ready-->
+<br>
+<div class="title">
+  6- Has one route that demonstrates how nested 'router-outlet' works
+</div>
+<div class="evaluation">
+  You could check it this exercise when you are navigate in the web pages.
+</div>
+<!--Ready-->
+<br>
+<div class="title">
+  7- Have 2 inputs with some simple validation (like an email validation) without the require
+  of angular-forms and ngModel
+</div>
+<div class="subtitle">
+  <button [routerLink]="['/EmailValidation']">Go to validation input Exercise</button>
+</div>
+
+<!--Working-->
+<br>
+<div class="title">
+  8- Demonstrates the usage of ng-content.
+</div>
+<div class="subtitle">
+  <button [routerLink]="['/ngContentExample']">Go to ngContent Exercise</button>
+</div>
+
+<br>
+<div class="title">
+  9- Have an input directive that restricts the input to numbers only and auto formats the input
+  into currency, ex: $1,234. The field must change its format as user types
+</div>
+<div class="subtitle">
+  <button [routerLink]="['/maskExercise']">Go to mask Exercise</button>
+</div>
+
+<br>
+<div class="title">
+  10-  Demonstrates various ways to bind component properties to an associated template
+</div>
+<div class="evaluation">
+  You could check it this exercise when you are navigate in the web pages.
+</div>
+
+<br>
+<div class="title">
+  11- Has unit tests.
+</div>
+<div class="subtitle">
+  <button [routerLink]="['/passDataExercise']">Go to pass data Exercise</button>
+</div>
+
+</div>

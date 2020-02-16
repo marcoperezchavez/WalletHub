@@ -1,0 +1,10 @@
+<h1>Authentication Exercise</h1>
+<div>
+  <label>Instructions: If you want to be authenticated, you have to write in the input the user name <b>"marco"</b></label>
+  <br>
+  <label>If you write another user name, the result will be dont access page</label>
+  <br>
+  <input placeholder="Add the User Name" [(ngModel)]="userName">
+  <button (click)="validateUserName()">Validate User Name</button>
+</div>
+<button [routerLink]="['/']">Go Back</button>

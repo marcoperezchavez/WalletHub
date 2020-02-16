@@ -1,0 +1,14 @@
+<div>
+  <h1>Address Section:</h1>
+  <label>Write your city:</label>
+  <input type="text" placeholder="city" [(ngModel)] = "city">
+  <br>
+  <label>Write your address:</label>
+  <input type="text" placeholder="address" [(ngModel)] = "address">
+  <br>
+  <label>Write your country:</label>
+  <input type="text" placeholder="country" [(ngModel)] = "country">
+  <br>
+<button (click)="saveAddress()">Go to show the address</button>
+</div>
+<button [routerLink]="['/']">Go Back</button>

@@ -1,0 +1,9 @@
+<div id='contentMask'>
+  <p>mask-exercise works!</p>
+  <input id=inputCantidad  [value]="cantidad" (change)="updateValue($event.target.value)">
+  <br>
+  <button id="btnMask" (click)="showValueMask()">convert value to mask</button>
+  <br>
+  <button [routerLink]="['/']">Go Back</button>
+</div>
+

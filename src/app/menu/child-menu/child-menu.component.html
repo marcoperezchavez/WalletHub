@@ -1,0 +1,12 @@
+
+<div *ngFor="let name of names">
+  {{name}}
+</div>
+<div>You can vote: {{messageAge}}</div>
+
+<div>
+  <input type="text" [(ngModel)]="signSelected" placeholder="Enter your sign">
+  <button (click)="getSign()">Send Sign</button>
+</div>
+<br>
+

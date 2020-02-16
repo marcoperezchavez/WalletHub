@@ -1,0 +1,12 @@
+.box {
+  background: #2db34a;
+  border-radius: 6px;
+  transition-property: background, border-radius;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  width: 50%;
+}
+.box:hover {
+  background: #ff7b29;
+  border-radius: 50%;
+}

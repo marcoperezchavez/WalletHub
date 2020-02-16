@@ -1,0 +1,21 @@
+<h1>
+  Validation in the inputs
+</h1>
+<div>
+  <label>Add your email</label>
+  <br>
+  <input #emailInput placeholder="Email" type="email">
+</div>
+<button (click)="ValidateEmail()">Validate Email</button>
+{{messageValidatorEmail}}
+<br>
+<div>
+  <label>Add your telephone</label>
+  <br>
+  <input #telephoneInput placeholder="Telephone" type="number">
+</div>
+<button (click)="ValidateTelephone()">Validate Telephone</button>
+{{messageValidatorTelephone}}
+<br>
+<button [routerLink]="['/']">Go Back</button>
+
